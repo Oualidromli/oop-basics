@@ -13,6 +13,127 @@ In this project you will learn the basics of OOP using mobile devices as a refer
 - [OOP Introduction](#oop-introduction)
 - [Project files](#project-files)
 
+## Theory 📚
+
+**What is object-oriented programming in general terms?**
+
+Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
+***
+
+**What is a class?** 
+
+Classes are user-defined data types that act as the blueprint for individual objects, attributes and methods.
+***
+
+**What is an object?**
+
+object in OOPS is nothing but a self-contained component which consists of methods and properties to make a particular type of data useful. For example color name, table, bag, barking. When you send a message to an object, you are asking the object to invoke or execute one of its methods as defined in the class.
+***
+
+**What is an instance?**
+
+An instance is a concrete occurrence of any object, existing usually during the runtime of a computer program.
+***
+
+**What is a property?** 
+
+We call properties to the variables inside a class. Properties can accept values like strings, integers, and booleans (true/false values), like any other variable.
+***
+
+**What is a method?**
+
+The classes most often contain functions. A function inside a class is called a method.
+***
+
+**What is the difference between a function and a method?** 
+
+A method is a procedure or function in OOPs Concepts. Whereas, a function is a group of reusable code which can be used anywhere in the program. This helps the need for writing the same code again and again.
+***
+
+**What is a constructor?** 
+
+A constructor is a special method of a class or structure in object-oriented programming that initializes a newly created object of that type. Whenever an object is created, the constructor is called automatically.
+***
+
+**What is the difference between a class, an object and an instance?** 
+
+
+|              Class                                                        |                  Object                                                         |
+|---------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| Class is used as a template for declaring and creating the objects.       | An object is an instance of a class.                                            |
+| When a class is created, no memory is allocated.                          | Objects are allocated memory space whenever they are created.                   |
+| The class has to be declared first and only once.                         | An object is created many times as per requirement.                             |
+| A class can not be manipulated as they are not available in the memory.   | Objects can be manipulated.                                                     |
+| A class is a logical entity.                                              | An object is a physical entity.                                                 |
+| It is declared with the class keyword.                                    | Each and every object has its own values, which are associated with the fields. |
+| Class does not contain any values which can be associated with the field. | You can create object using "new" keyword                                       |
+| A class is used to bind data as well as methods together as a single unit.|                                                                                 |
+|                                                                           |                                                                                 |
+| Example: Fruit.                                                           | Example: Apple, Banana, etc.                                                    |
+|                                                                           |                                                                                 |     
+***
+
+
+**What do we understand about the concept of encapsulation?**
+
+Is the practice of keeping fields within a class private, then providing access to them via public methods. It’s a protective barrier that keeps the data and code safe within the class itself. This way, we can re-use objects like code components or variables without allowing open access to the data system-wide.
+***
+
+**What do we understand about the concept of abstraction?** 
+
+Abstraction means using simple things to represent complexity. We all know how to turn the TV on, but we don’t need to know how it works in order to enjoy it. In OOP, abstraction means simple things like objects, classes, and variables represent more complex underlying code and data. This is important because it lets avoid repeating the same work multiple times.
+***
+
+**What do we understand about the concept of inheritance?** 
+
+This is a special feature of Object Oriented Programming. It lets programmers create new classes that share some of the attributes of existing classes. This lets us build on previous work without reinventing the wheel.
+***
+
+**What do we understand about the concept of polymorphism?** 
+
+This OOP concept lets programmers use the same word to mean different things in different contexts. One form of polymorphism is method overloading. That’s when different meanings are implied by the code itself. The other form is method overriding. That’s when the different meanings are implied by the values of the supplied variables. See the next questions below.
+***
+
+**What do we understand about the concept of Overload?** 
+
+In method overriding, the child class can use the OOP polymorphism concept to override a method of its parent class. That allows a programmer to use one method in different ways depending on whether it’s invoked by an object of the parent class or an object of the child class.
+***
+
+**What do we understand about the concept of Override?** 
+
+Overloading in PHP provides means to dynamically create properties and methods. These dynamic entities are processed via magic methods one can establish in a class for various action types.
+The overloading methods are invoked when interacting with properties or methods that have not been declared or are not visible in the current scope.
+***
+
+**What differences exist between the concept of Overload and Override?** 
+
+In function overloading, more than one function can have same method signature but different number of arguments. But in case of function overriding, more than one functions will have same method signature and number of arguments.
+***
+
+**What is a static class?** 
+
+Declaring class properties or methods as static makes them accessible without needing an instantiation of the class. These can also be accessed statically within an instantiated class object.
+***
+
+**Look for 3 advantages over object-oriented programming compared to other programming paradigms.** 
+
+1. Improved software maintainability: For the reasons mentioned above, object-oriented software is also easier to maintain. Since the design is modular, part of the system can be updated in case of issues without a need to make large-scale changes.
+
+2. Faster development: Reuse enables faster development. Object-oriented programming languages come with rich libraries of objects, and code developed during projects is also reusable in future projects.
+
+3. Higher-quality software: Faster development of software and lower cost of development allows more time and resources to be used in the verification of the software. Although quality is dependent upon the experience of the teams, object-oriented programming tends to result in higher-quality software.
+***
+
+**Look for disadvantages of this paradigm.** 
+
+1. Larger program size: Object-oriented programs typically involve more lines of code than procedural programs.
+
+2. Slower programs: Object-oriented programs are typically slower than procedure-based programs, as they typically require more instructions to be executed.
+
+3. Not suitable for all types of problems: There are problems that lend themselves well to functional-programming style, logic-programming style, or procedure-based programming style, and applying object-oriented programming in those situations will not result in efficient programs.
+***
+
+
 ## Getting Started
 
 ### The repo <!-- omit in toc -->
